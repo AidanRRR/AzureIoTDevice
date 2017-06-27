@@ -39,7 +39,6 @@ function generateLongitudeLatitude(from, to, fixed) {
 }
 
 function generateRandomNumber(from, to) {
-  console.log('hallo');
   return (Math.floor((Math.random() * to) + from));
 }
 
@@ -159,14 +158,6 @@ client.open(function (err) {
 
     // Start sending telemetry
     var sendInterval = setInterval(function () {
-      /*
-      temperature += generateRandomIncrement();
-      externalTemperature += generateRandomIncrement();
-      humidity += generateRandomIncrement();
-      o2 += generateRandomIncrement();
-      co2 += generateRandomIncrement();
-      airquality += generateRandomIncrement();*/
-
       temperature = generateRandomNumber(25, 40);
       externalTemperature = generateRandomNumber(10, 20);
       humidity = generateRandomNumber(0, 100);

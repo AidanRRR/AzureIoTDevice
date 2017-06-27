@@ -9,7 +9,7 @@ ClientID
 DummyDevice1
 
 Username
-VectrIoTHubTest.azure-devices.net/DummyDevice1
+VectrIoTHubTest.azure-devices.net/DummyDevice1/api-version=2016-11-14
 
 SSL: Yes
 
@@ -20,3 +20,11 @@ MQTT Version: 3.1.1
 
 Publish messages:
 devices/DummyDevice1/messages/events/
+
+{"DeviceID":"DummyDevice1","Temperature":120,"Airquality":2,"Humidity":95,"ExternalTemperature":17,"o2":155,"co2":68,"Longitude":104.38399999999999,"Latitud
+e":121.35}
+
+https://github.com/Azure/azure-iot-protocol-gateway/blob/master/docs/DeveloperGuide.md#subscriptions-and-topic-names
+https://www.losant.com/blog/getting-started-with-azure-iot-and-losant
+
+
