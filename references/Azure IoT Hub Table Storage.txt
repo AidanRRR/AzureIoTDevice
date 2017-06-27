@@ -1,0 +1,14 @@
+Event Hub-compatible name
+iothub-ehub-vectriothu-176203-ac6d3ceae1
+
+Event Hub-compatible endpoint
+Endpoint=sb://ihsuprodamres053dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=Ruq08jb0qSDxoNuNTsOMnOliNtkKN6Fhdxmxm4cuiBk=
+
+iothubowner
+Ruq08jb0qSDxoNuNTsOMnOliNtkKN6Fhdxmxm4cuiBk=
+
+Endpoint connection string
+sb://ihsuprodamres053dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=Ruq08jb0qSDxoNuNTsOMnOliNtkKN6Fhdxmxm4cuiBk=;SharedAccessKeyName=iothubowner;SharedAccessKey=Ruq08jb0qSDxoNuNTsOMnOliNtkKN6Fhdxmxm4cuiBk=
+
+Hub consumer
+azuretable

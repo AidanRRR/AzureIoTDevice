@@ -1,0 +1,2 @@
+http://www.instructables.com/id/Azure-IoT-Hub-Set-Up-MQTTfx-Sigfox-Callback-and-Dr/
+https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-store-data-in-azure-table-storage

@@ -1,0 +1,22 @@
+Host
+VectrIoTHubTest.azure-devices.net
+
+Port
+Websocket port: 443
+MQTT port: 8883
+
+ClientID
+DummyDevice1
+
+Username
+VectrIoTHubTest.azure-devices.net/DummyDevice1
+
+SSL: Yes
+
+Password (SAS Token Device):
+SharedAccessSignature sr=VectrIoTHubTest.azure-devices.net%2Fdevices%2FDummyDevice1&sig=Mqtx7AntaXDJZ1uJo2th16x4DmKxIkORX0HVX8NK%2Be0%3D&se=1497950502
+
+MQTT Version: 3.1.1
+
+Publish messages:
+devices/DummyDevice1/messages/events/

@@ -1,0 +1,15 @@
+{
+  "name": "dummy-device",
+  "version": "1.0.0",
+  "description": "Dummy IoT device for Azure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.1.10",
+    "azure-iot-device-mqtt": "^1.1.10"
+  }
+}
